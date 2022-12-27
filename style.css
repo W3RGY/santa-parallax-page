@@ -1,0 +1,78 @@
+@import url("reset.css");
+
+body {
+
+}
+.wrapper {
+
+}
+
+.page {
+}
+.page::before {
+	content: "";
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: url('img/bg.webp') center / cover no-repeat;
+}
+.main-screen {
+}
+.moon {
+}
+.moon__inset {
+}
+.building {
+}
+.building_three {
+}
+.building__inset {
+}
+.building_two {
+}
+.building_one {
+}
+.train {
+}
+.train__inset {
+}
+.santa {
+}
+.santa__tree {
+}
+.santa__inset {
+}
+.santa__ball {
+}
+.santa__ball_one {
+}
+.santa__candy {
+}
+.santa__candy_one {
+}
+.santa__ball_two {
+}
+.santa__candy_two {
+}
+.santa__man {
+}
+.tree {
+}
+.tree__inset {
+}
+.stairs {
+}
+.stairs__inset {
+}
+.efx {
+}
+.content {
+}
+.content__container {
+}
+.content__title {
+}
+.content__body {
+}
