@@ -51,7 +51,7 @@ function windowLoad() {
 	function createPosition() {
 		const contentElement = document.querySelector('.content__container');
 		const windowHeight = window.innerHeight;
-		const finalPos = scrollY / (contentElement.offsetTop - windowHeight) * 100;
+		const finalPos = scrollY / (contentElement.offsetTop - windowHeight) * 60;
 		finalPos < 100 ? christmasAnimation(finalPos) : christmasAnimation(100);
 	}
 	function christmasAnimation(finalPos) {
